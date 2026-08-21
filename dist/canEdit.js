@@ -9,4 +9,6 @@ const canEdit = (role) => {
     }
 };
 console.log(canEdit("admin"));
+console.log(canEdit("viewer"));
+console.log(canEdit("editor"));
 //# sourceMappingURL=canEdit.js.map
