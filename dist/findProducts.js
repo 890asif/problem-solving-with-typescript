@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const findProducts = (prosucts, category) => {
-    const categoryProduct = products.filter((product) => product.category === "category");
+const findProducts = (products, category) => {
+    const categoryProduct = products.filter((product) => product.category === category);
     return categoryProduct;
 };
 const products = [
@@ -10,4 +10,5 @@ const products = [
     { name: "MacBook Air", price: 120000, category: "laptop" },
     { name: "Dell XPS", price: 110000, category: "laptop" }
 ];
+console.log(findProducts(products, "phone"));
 //# sourceMappingURL=findProducts.js.map
